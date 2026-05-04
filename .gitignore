@@ -1,0 +1,19 @@
+### Python
+__pycache__/
+*.pyc
+venv/
+
+### 本项目特定
+logs/
+screenshots/
+allure-results/
+allure-report/
+.pytest_cache/
+*.log
+*.png
+*.html
+
+### IDE 和 OS
+.vscode/
+.idea/
+.DS_Store

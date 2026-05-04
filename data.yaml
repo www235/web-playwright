@@ -1,0 +1,9 @@
+search_keywords:
+  - name: "正常搜索-肖申克的救赎"
+    keyword: "肖申克的救赎"
+  - name: "正常搜索-霸王别姬"
+    keyword: "霸王别姬"
+  - name: "空字符串"
+    keyword: ""
+  - name: "特殊字符"
+    keyword: "@#$%"
