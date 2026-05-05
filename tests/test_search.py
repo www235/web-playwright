@@ -23,7 +23,7 @@ def test_search_movie(page: Page, case):
     page.click("input[type='submit']")
 
     logger.info("等待搜索结果出现")
-    page.wait_for_selector("text=找到约")
+    page.wait_for_selector("text=豆瓣")
 
     if keyword == "" or keyword == "@#$%":
         logger.info("执行断言：标题应包含 '豆瓣'")
