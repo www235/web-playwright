@@ -27,7 +27,7 @@ def test_search_movie(page: Page, case):
 
     if keyword == "" or keyword == "@#$%":
         logger.info("执行断言：标题应包含 '豆瓣'")
-        assert "错误" in page.title()
+        assert "豆瓣" in page.title()
         logger.info("断言通过")
     else:
         logger.info(f"执行断言：标题应包含 '{keyword}'")
