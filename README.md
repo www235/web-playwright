@@ -25,3 +25,5 @@ Pytest
 Allure
 YAML
 Logging
+
+![CI](https://github.com/www235/douban-playwright-tests/actions/workflows/ci.yml/badge.svg)
