@@ -24,7 +24,7 @@ jobs:
         playwright install chromium
 
     - name: Run tests
-      run: pytest tests/test_search.py --headless --alluredir=allure-results
+      run: pytest tests/test_search.py --alluredir=allure-results
 
     - name: Upload Allure results
       if: always()
