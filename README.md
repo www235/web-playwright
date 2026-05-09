@@ -1,5 +1,5 @@
 # 搜索自动化测试
-
+![CI](https://github.com/www235/douban-playwright-tests/actions/workflows/ci.yml/badge.svg)
 Playwright + Pytest 实现简单的电影搜索功能的自动化测试，数据驱动，失败截图，集成 Allure 报告。
 
 ## 功能覆盖
@@ -26,4 +26,4 @@ Allure
 YAML
 Logging
 
-![CI](https://github.com/www235/douban-playwright-tests/actions/workflows/ci.yml/badge.svg)
+
