@@ -8,8 +8,8 @@ from utils.logger import logger
 @pytest.fixture(scope="session")
 def browser():
     with sync_playwright() as p:
-        # headless=False 让浏览器可见
-        browser = p.chromium.launch(headless=False)
+        headless =os.
+        browser = p.chromium.launch(headless=True)
         yield browser
         browser.close()
 
